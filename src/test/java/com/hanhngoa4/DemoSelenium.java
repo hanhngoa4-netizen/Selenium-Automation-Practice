@@ -28,7 +28,7 @@ public class DemoSelenium
             driver.findElement(By.xpath("//input[@id='password']")).sendKeys("123456");
             driver.findElement(By.xpath("//button[normalize-space()='Login']")).click();
         try {
-            Thread.sleep(2000);
+            Thread.sleep(8000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
